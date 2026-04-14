@@ -47,7 +47,7 @@ export function About() {
                 <p>
                   I'm a junior fullstack developer with a focus on mobile, web, and AI. 
                   I'm a perfectionist and resilient by nature — I pay close attention to detail and don't give up easily when facing challenges. 
-                  Outside of coding, I love music and play the guitar, and I'm also an avid reader. 
+                  Outside of coding, I love music and play the guitar, and I'm also into philosophy and reading. 
                   For me, building apps and writing code goes hand in hand with creativity, curiosity, and continuous learning.
                 </p>
                 <p>
