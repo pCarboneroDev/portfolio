@@ -16,9 +16,9 @@ export function Contact() {
                 '2PJBufDYSvUjkC0NN'     // Tu Public Key real
             )
             .then(
-                () => { //result
-                    alert('Email sent!');
-                    window.location.reload();  // This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+                () => { // result
+                    // alert('Email sent!');
+                    window.location.reload();
                 },
                 (error) => {
                     console.log(error.text);
@@ -115,7 +115,7 @@ export function Contact() {
                                 <input
                                     type="text"
                                     id="name"
-                                    name="from_name"
+                                    name="name"
                                     placeholder="Your name"
                                     className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                                 />
@@ -127,7 +127,7 @@ export function Contact() {
                                 <input
                                     type="email"
                                     id="email"
-                                    name="from_email"
+                                    name="email"
                                     placeholder="your@email.com"
                                     className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                                 />
@@ -141,7 +141,7 @@ export function Contact() {
                             <input
                                 type="text"
                                 id="subject"
-                                name="subject"
+                                name="title"
                                 placeholder="What can I help you with?"
                                 className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                             />
