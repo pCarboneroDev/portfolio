@@ -1,0 +1,44 @@
+@import "../../index.css";
+
+
+.resizable {
+    transition: all 0.3s ease;
+}
+
+.resizable:hover {
+    transform: scale(1.25);
+    box-shadow: 0 4px 8px --var(--primary)/50;
+}
+
+.card {
+    transition: all 0.3s ease-out;
+}
+
+.card:hover{
+    @apply scale-102;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.skill {
+    @apply transition-all duration-300 ease-out;
+    @apply shadow-lg shadow-primary/10;
+    /* @apply bg-black/50; */
+    @apply backdrop-blur-xs;
+}
+
+.skill:hover {
+    @apply scale-105;
+    @apply shadow-lg shadow-primary/50;
+}
+
+.selected {
+    @apply transition-all duration-300 ease-out;
+    @apply bg-primary text-primary-foreground;
+}
+
+.dropdown {
+    @apply transition-all duration-300 ease-out;
+}
