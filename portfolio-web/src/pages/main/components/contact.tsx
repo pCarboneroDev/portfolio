@@ -16,7 +16,7 @@ export function Contact() {
                 '2PJBufDYSvUjkC0NN'     // Tu Public Key real
             )
             .then(
-                (result) => {
+                () => { //result
                     alert('Email sent!');
                     window.location.reload();  // This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
                 },
