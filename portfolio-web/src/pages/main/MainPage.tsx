@@ -52,6 +52,16 @@ export function MainPage() {
             ]
         },
         {
+            name: "Expenses Manager App",
+            description: "Mobile app that allows users to manage their expenses and track their spending habits.",
+            technologies: ["Flutter", "Python", "fastApi", "SQLite", "SqlAlchemy"],
+            images: ["/project_images/no_image.png"],
+            actions: [
+                { name: "Frontend", url: "https://github.com/pCarboneroDev/expensesManager" },
+                { name: "Backend", url: "https://github.com/pCarboneroDev/expensesManager_backend" }
+            ]
+        },
+        {
             name: "Mencía. A never was tale.",
             description: "Mencía. A never was tale, is a 2D platformer, roguelike, in which you will have to face the invasion of cute aliens using the properties that a magic sword will give you.",
             technologies: ["C#", "Unity", "Steam"],
