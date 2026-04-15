@@ -228,13 +228,6 @@ export function Skills() {
                                 <p className="mt-2 text-center">Pytorch</p>
                             </div>
                         </div>
-
-                        <div data-aos="fade-up" data-aos-delay="200">
-                            <div className="flex flex-col items-center p-4 rounded-lg skill">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlalchemy/sqlalchemy-original.svg" alt="Sqlalchemy" className="w-30" />
-                                <p className="mt-2 text-center">Sqlalchemy</p>
-                            </div>
-                        </div>
                     </div>
                 )}
             </div>
