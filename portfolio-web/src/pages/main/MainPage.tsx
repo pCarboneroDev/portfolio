@@ -55,7 +55,7 @@ export function MainPage() {
             name: "Expenses Manager App",
             description: "Mobile app that allows users to manage their expenses and track their spending habits.",
             technologies: ["Flutter", "Python", "fastApi", "SQLite", "SqlAlchemy"],
-            images: ["/project_images/no_image.png"],
+            images: ["/project_images/expenses/expenses2.png", "/project_images/expenses/expenses1.png", "/project_images/expenses/expenses3.png", "/project_images/expenses/expenses4.png"],
             actions: [
                 { name: "Frontend", url: "https://github.com/pCarboneroDev/expensesManager" },
                 { name: "Backend", url: "https://github.com/pCarboneroDev/expensesManager_backend" }
