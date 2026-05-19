@@ -10,6 +10,8 @@ import { Skills } from "./components/skills"
 import { Contact } from "./components/contact"
 import { Footer } from "./components/footer"
 import { About } from "./components/about"
+import { Analytics } from "@vercel/analytics/react"
+
 
 export function MainPage() {
     useEffect(() => {
@@ -103,6 +105,7 @@ export function MainPage() {
                 </div>
                 <Footer></Footer>
             </div>
+            <Analytics/>
         </div>
     )
 }

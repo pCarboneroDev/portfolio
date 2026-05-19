@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button"
-import { Analytics } from "@vercel/analytics/react"
 
 export function App() {
   return (
@@ -15,7 +14,6 @@ export function App() {
           (Press <kbd>d</kbd> to toggle dark mode)
         </div>
       </div>
-      <Analytics/>
     </div>
   )
 }
