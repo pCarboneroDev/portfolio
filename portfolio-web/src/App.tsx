@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export function App() {
   return (
