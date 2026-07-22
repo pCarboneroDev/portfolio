@@ -27,7 +27,7 @@ export function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-2xl blur-2xl group-hover:blur-3xl transition-all duration-300" />
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-border" data-aos="zoom-in">
               <img
-                src="/profile.png"
+                src="/profile_no_piercing2.png"
                 alt="About me"
                 className="w-full h-auto object-cover aspect-[4/5] hover:scale-105 transition-transform duration-500"
               />
